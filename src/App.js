@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/myproject' element={<Home/>} />
         <Route path='/rvowels' element={<Rvowels/>} />
         <Route path='/cvowels' element={<Cvowels/>} />
         <Route path='/matrixmul' element={<Matrixmul/>} />
